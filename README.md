@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leader Board
 
-> Description the project.
+This project holds a practice implementation of API integration while using HTML, CSS, JavaScript and Webpack as module bundler. 
 
 
 ## Built With
@@ -13,31 +13,25 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple example steps.
 
+
+# Setup
+1. Copy the repository's link and clone it to your local folder.
+- git clone https://github.com/NatiDeme/Leaderboard
+2. Open folder in any of the text editors.
+- After a successful clone and opening on text editer run `npm i` so you will get dependencies
+
+### Prerequisites
+- `Node` has to be installed in your machine so you can run `npm` package manager as you wish.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## 👤 Author
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: @NatiDeme / github.com/NatiDeme
+- Twitter: @NatiDemelash / twitter.com/NatiDemelash
+- LinkedIn: Natnael Demelash / linkedin.com/in/natnael-demelash/
 
 
 ## 🤝 Contributing
