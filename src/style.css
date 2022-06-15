@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-section {
+  display: flex;
+  gap: 20rem;
+  margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+.list-of-scores {
+  width: 30rem;
+}
+
+.list-of-scores ul {
+  list-style: none;
+  margin-top: 1.5rem;
+  border: 1px solid black;
+  padding-left: 2rem;
+}
+
+.list-of-scores ul li {
+  margin-top: 5px;
+}
+
+.score-list-header {
+  display: flex;
+  gap: 2rem;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.add-score input {
+  height: 2rem;
+  width: 25rem;
+}
+
+.sub-btn {
+  display: flex;
+  justify-content: end;
+}
+
+.sub-btn button {
+  padding: 14px;
+}
+
+main h1 {
+  padding: 5rem;
+}
