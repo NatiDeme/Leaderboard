@@ -14,8 +14,6 @@ const addScore = () => {
       },
     }).then((res) => {
       res.json();
-    }).catch((err) => {
-      console.log(err);
     });
     window.location.reload();
   };
