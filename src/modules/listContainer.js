@@ -9,19 +9,19 @@ const listContainer = () => {
     const result = await fetch(`${base}${gameId}`).then((res) => res.json());
     return result;
   };
-  refresh.addEventListener('click', () => {
-    // addToList().then((res) => {
-    //   scoreArray = res.result;
-    //   scoreArray.forEach((score) => {
-    //     listContainer.innerHTML += `
-    //           <li> <p>${score.user}</p>
-    //        <p>${score.score}</p> </li> <hr>
-
-    //             `;
-    //   });
-    // });
-    window.location.reload();
+  refresh.addEventListener('click', async () => {
+    listContainer.innerHTML = '';
+    const result = await fetch(`${base}${gameId}`).then((res) => res.json());
+    scoreArray = result.result;
+    scoreArray.forEach((score) => {
+      listContainer.innerHTML += `
+                <li> <p>${score.user}</p>
+             <p>${score.score}</p> </li> <hr>
+        
+                  `;
+    });
   });
+
   addToList().then((res) => {
     scoreArray = res.result;
     scoreArray.forEach((score) => {

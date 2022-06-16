@@ -15,7 +15,8 @@ const addScore = () => {
     }).then((res) => {
       res.json();
     });
-    window.location.reload();
+    name.value = '';
+    scoreNum.value = '';
   };
   submit.addEventListener('click', () => {
     data = {
