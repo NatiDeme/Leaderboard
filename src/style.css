@@ -14,10 +14,19 @@
   width: 25rem;
 }
 
-.list-of-scores ul {
-  list-style: none;
+.list-of-scores div {
   margin-top: 1.5rem;
   border: 1px solid black;
+}
+
+.all-scores {
+  list-style: none;
+}
+
+.all-scores li {
+  display: flex;
+  gap: 1rem;
+  font-size: 20px;
   padding-left: 2rem;
 }
 
@@ -47,6 +56,7 @@
 .add-score input {
   height: 1.5rem;
   width: 100%;
+  padding-left: 1rem;
 }
 
 .add-score h2 {
