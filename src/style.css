@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-section {
+  display: flex;
+  gap: 12rem;
+  margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+.list-of-scores {
+  width: 25rem;
+}
+
+.list-of-scores div {
+  margin-top: 1.5rem;
+  border: 1px solid black;
+}
+
+.all-scores {
+  list-style: none;
+}
+
+.all-scores li {
+  display: flex;
+  gap: 1rem;
+  font-size: 20px;
+  padding-left: 2rem;
+}
+
+.list-of-scores ul li {
+  margin-top: 5px;
+}
+
+.score-list-header {
+  display: flex;
+  gap: 2rem;
+}
+
+.score-list h2 {
+  font-size: 2.5rem;
+}
+
+.score-list button {
+  padding: 16px;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.add-score input {
+  height: 1.5rem;
+  width: 100%;
+  padding-left: 1rem;
+}
+
+.add-score h2 {
+  font-size: 2.5rem;
+}
+
+.sub-btn {
+  display: flex;
+  justify-content: end;
+}
+
+.sub-btn button {
+  padding: 12px;
+}
+
+main h1 {
+  padding: 5rem;
+}
+
+#finput {
+  margin-top: 1rem;
+}
