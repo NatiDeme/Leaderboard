@@ -29,9 +29,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## 👤 Author
 
-- GitHub: @NatiDeme / github.com/NatiDeme
-- Twitter: @NatiDemelash / twitter.com/NatiDemelash
-- LinkedIn: Natnael Demelash / linkedin.com/in/natnael-demelash/
+- GitHub: [@NatiDeme](https://github.com/NatiDeme)
+- Twitter: [@NatiDemelash](https://twitter.com/NatiDemelash)
+- LinkedIn: [Natnael Demelash](https://www.linkedin.com/in/natnael-demelash/)
 
 
 ## 🤝 Contributing
