@@ -4,6 +4,9 @@
 
 This project holds a practice implementation of API integration while using HTML, CSS, JavaScript and Webpack as module bundler. 
 
+![image](https://user-images.githubusercontent.com/29539518/174741128-dd85e670-0feb-4150-bb73-9b030eb89fa9.png)
+
+
 
 ## Built With
 
